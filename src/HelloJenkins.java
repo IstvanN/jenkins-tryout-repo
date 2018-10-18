@@ -5,6 +5,6 @@ public class HelloJenkins {
   }
 
   public static String returnWithJenkins() {
-    return "Jenkins";
+    return "Hello Jenkins";
   }
 }
