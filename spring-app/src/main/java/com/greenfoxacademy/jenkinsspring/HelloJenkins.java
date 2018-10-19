@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class HelloJenkins {
 
   public static String helloJenkins() {
-    return "Hello Jenkins!";
+    return "Hello Jenkins!!";
   }
 }
