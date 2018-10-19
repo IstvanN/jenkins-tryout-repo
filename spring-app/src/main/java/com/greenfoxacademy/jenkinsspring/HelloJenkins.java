@@ -8,6 +8,6 @@ public class HelloJenkins {
   private HelloJenkins() {}
 
   static String helloJenkins() {
-    return "Hello Jenkins!!";
+    return "Hello Jenkins!";
   }
 }
