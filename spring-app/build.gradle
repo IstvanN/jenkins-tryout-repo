@@ -10,6 +10,10 @@ buildscript {
     }
 }
 
+plugins {
+    id "org.sonarqube" version "2.6.2"
+}
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
@@ -30,6 +34,3 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 
-plugins {
-    id "org.sonarqube" version "2.6.2"
-}
