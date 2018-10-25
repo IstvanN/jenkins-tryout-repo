@@ -1,11 +1,13 @@
 package com.greenfoxacademy.jenkinsspring;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 public class MainController {
 
+  @GetMapping("")
   public String showIndex() {
-    return "index";
+    return "Hello Jenkins! This is Archie's test app for Jenkins deployment practicing.";
   }
 }
