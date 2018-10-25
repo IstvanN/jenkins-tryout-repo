@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image":{
-    "Name": "greenfox/szera:0.9.1-SNAPSHOT"
+    "Name": "archiezgg/springjenkinstryout"
   },
     "Ports": [       {
       "ContainerPort": "8080",
