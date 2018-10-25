@@ -19,5 +19,4 @@ public class JenkinsSpringApplicationTests {
     String expected = "Hello Jenkins!";
     Assert.assertEquals(expected, HelloJenkins.helloJenkins());
   }
-
 }
