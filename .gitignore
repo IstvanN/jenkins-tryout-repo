@@ -3,6 +3,5 @@ out
 *.iml
 *.xml
 *.class
-
+build/
 .DS_Store
-
