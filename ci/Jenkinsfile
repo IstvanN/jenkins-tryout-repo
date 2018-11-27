@@ -2,10 +2,21 @@ pipeline {
   agent any
 
   stages {
+    stage('build') {
+      steps {
+        sh './gradlew build --stacktrace'
+      }
+    }
+
     stage('test') {
       steps {
-        sh 'pwd'
-        sh './gradlew test'
+        sh './gradlew test --stacktrace'
+      }
+    }
+
+    stage('deploy') {
+      steps {
+
       }
     }
   }
