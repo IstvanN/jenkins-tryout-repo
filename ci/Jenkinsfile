@@ -4,7 +4,8 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        sh 'cd ../ && ./gradlew test'
+        sh pwd
+        sh './gradlew test'
       }
     }
   }
