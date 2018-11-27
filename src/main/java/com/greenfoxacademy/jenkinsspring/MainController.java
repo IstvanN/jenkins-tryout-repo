@@ -8,6 +8,6 @@ public class MainController {
 
   @GetMapping("")
   public String showIndex() {
-    return "Hello Heroku! This is Archie's test app for Heroku deployment practicing.";
+    return "Hello Heroku & Jenkins (with pipeline)! This is Archie's test app for Heroku deployment practicing using Jenkins pipeline.";
   }
 }
