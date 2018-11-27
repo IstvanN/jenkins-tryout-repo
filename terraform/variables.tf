@@ -9,7 +9,3 @@ variable "api_key" {
 variable "app_name" {
   description = "The name of the application on Heroku."
 }
-
-variable "region" {
-  description = "The region for the app on Heroku."
-}
