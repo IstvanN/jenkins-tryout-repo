@@ -16,7 +16,7 @@ pipeline {
 
     stage('deploy') {
       steps {
-        sh 'git push https://heroku:$HEROKU_API_KEY@git.heroku.com/jenkins-pipeline.git'
+        sh 'git push https://heroku:$HEROKU_API_KEY@git.heroku.com/jenkins-pipeline.git master'
       }
     }
   }
